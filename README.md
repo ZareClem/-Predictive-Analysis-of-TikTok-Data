@@ -17,3 +17,15 @@ TikTok aims to develop a machine learning model to identify claims and opinions 
 
 ## Modeling Objective:
 The objective is to develop a machine learning model that predicts whether a TikTok video contains a "claim" or an "opinion." This binary classification model will leverage advanced machine learning techniques, such as GridSearchCV and Random Forest, to ensure high accuracy and reliability. The ultimate goal is to integrate this model into TikTok's moderation workflow, allowing for automated, real-time content assessment and more effective allocation of moderation resources.
+
+## Modeling Workflow and Model Selection Process
+Previous work with this data set, consisting of approximately 20,000 videos, indicates that it is sufficient for conducting a rigorous model validation workflow. The workflow involves the following steps:
+
+Split the data into training, validation, and test sets (60/20/20).
+Fit models and tune hyperparameters using the training set.
+Perform final model selection using the validation set.
+Assess the performance of the best model on the test set.
+
+## Select an appropriate evaluation metric.
+False positives: The model predicts a video is a claim when it is actually an opinion.
+False negatives: The model predicts a video is an opinion when it is actually a claim.

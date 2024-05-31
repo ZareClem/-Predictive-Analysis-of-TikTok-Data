@@ -28,4 +28,5 @@ Assess the performance of the best model on the test set.
 
 ## Select an appropriate evaluation metric.
 False positives: The model predicts a video is a claim when it is actually an opinion.
+
 False negatives: The model predicts a video is an opinion when it is actually a claim.

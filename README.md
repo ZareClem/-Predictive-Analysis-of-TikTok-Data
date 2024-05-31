@@ -30,3 +30,5 @@ Assess the performance of the best model on the test set.
 False positives: The model predicts a video is a claim when it is actually an opinion.
 
 False negatives: The model predicts a video is an opinion when it is actually a claim.
+
+The full explanation of code is available [here](https://github.com/ZareClem/-Predictive-Analysis-of-TikTok-Data/blob/main/tiktok-data-predictive-analysis-gridsearchcv.ipynb)
